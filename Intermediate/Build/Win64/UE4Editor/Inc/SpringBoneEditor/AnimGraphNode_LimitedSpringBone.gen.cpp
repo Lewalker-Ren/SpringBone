@@ -46,7 +46,6 @@ void EmptyLinkFunctionForGeneratedCodeAnimGraphNode_LimitedSpringBone() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimGraphNode_LimitedSpringBone_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "AnimGraphNode_LimitedSpringBone.h" },
 		{ "ModuleRelativePath", "Public/AnimGraphNode_LimitedSpringBone.h" },
 	};
@@ -88,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeAnimGraphNode_LimitedSpringBone() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAnimGraphNode_LimitedSpringBone, 1538392054);
+	IMPLEMENT_CLASS(UAnimGraphNode_LimitedSpringBone, 1264272875);
 	template<> SPRINGBONEEDITOR_API UClass* StaticClass<UAnimGraphNode_LimitedSpringBone>()
 	{
 		return UAnimGraphNode_LimitedSpringBone::StaticClass();
